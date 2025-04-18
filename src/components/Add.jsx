@@ -81,7 +81,7 @@ function Add({setAddVideoRsponse}) {
         </Modal.Header>
         <Modal.Body>
         <p>Please fill the following details</p>
-        <div className='border border-info p-3'>
+        <div className='border border-warning p-3'>
 
           {/* Caption*/}
 
@@ -112,7 +112,7 @@ function Add({setAddVideoRsponse}) {
           <Button variant="secondary" onClick={handleClose}>
             Cancel
           </Button>
-          <Button className="bg-info" onClick={uploadData}>Upload</Button>
+          <Button className="bg-warning" onClick={uploadData}>Upload</Button>
         </Modal.Footer>
       </Modal>
    </>
@@ -120,4 +120,3 @@ function Add({setAddVideoRsponse}) {
 }
 
 export default Add
-
